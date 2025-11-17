@@ -2,15 +2,15 @@
 using namespace std;
 int main()
 {
-	int r, h;
-	double V;
+	int r, hï¼ŒV;
 	const double PI = 3.14;
-	cout << "ÇëÊäÈë°ë¾¶";
+	cout << "è¯·è¾“å…¥åŠå¾„";
 	cin >> r;
-	cout << "ÇëÊäÈë×¶¸ß";
+	cout << "è¯·è¾“å…¥é”¥é«˜";
 	cin >> h;
 	V = (1.0 / 3) * PI * (r *r) * h;
-	cout << "Ô²×¶µÄÌå»ýÊÇ" << V;
+	cout << "åœ†é”¥çš„ä½“ç§¯æ˜¯" << V;
 	return 0;
 }
+
 
