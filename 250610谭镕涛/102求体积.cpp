@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	int r, h，V;
+	double r, h，V;
 	const double PI = 3.14;
 	cout << "请输入半径";
 	cin >> r;
@@ -12,5 +12,6 @@ int main()
 	cout << "圆锥的体积是" << V;
 	return 0;
 }
+
 
 
